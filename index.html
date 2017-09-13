@@ -17,9 +17,11 @@
     
         <body>
             <form name="notes" >
-                    <h1><span class="label label-default">Add New Note:</span></h1>
-                    <input type="text" name="inpText" class="form-control"/>
-                    <input type="button" value="Add note" onclick="addNote()" class="btn btn-success btn-block">
+                    <div class="form-group">
+                        <h1><span class="label label-default">Add New Note:</span></h1>
+                        <input type="text" name="inpText" class="form-group"/>
+                        <input type="button" value="Add note" onclick="addNote()" class="btn btn-success form-group">
+                    </div>
             </form>
             
             <div id="displayNotes"></div>
